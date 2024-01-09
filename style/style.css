@@ -3,14 +3,12 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
+/*Header Style*/
 nav{
     margin-top: 50px;
 }
 header {
-    max-width: 1320px;
-    margin: 0px auto;
-}
-main {
     max-width: 1320px;
     margin: 0px auto;
 }
@@ -47,6 +45,13 @@ main {
     font-weight: 900;
     line-height: 95px; /* 131.944% */
 }
+
+main {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+/* Section-1 Style */
 .section1{
     margin-bottom: 30px;
 }
@@ -92,6 +97,8 @@ main {
     height: 500px;
     flex-shrink: 0;
 }
+
+/* Section-2 Style */
 .section2{
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
@@ -105,7 +112,6 @@ main {
     position: relative;
     left: 850px;
     bottom: 320px;
-   
 }
 .welcome{
     width: 50%;
@@ -131,6 +137,8 @@ main {
     font-family: 'Open Sans', sans-serif; 
     text-align: left;
 }
+
+/* Section-3 Style */
 .datee{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     width: 1320px;
@@ -163,6 +171,11 @@ main {
     font-size: 20px;
     width: 30%;
 }
+.section3-btn:hover{
+    background-color: rgb(201, 97, 97);
+}
+
+/* Section-4 Style */
 .section4{
     margin-top: 150px;
     display: flex;
@@ -246,9 +259,7 @@ main {
     text-align: center;
 }
 .section5-top> h1{
-   
     text-align: center;
-    font-family: 'Merriweather';
     font-size: 72px;
     font-weight: 900;
 }
@@ -288,6 +299,7 @@ main {
 .section6{
     width: 1320px;
     height: 1250px;
+    margin-top: 50px;
 }
 .section6-top *{
     text-align: left;
@@ -299,6 +311,7 @@ main {
     font-size: 34px;
     font-weight: 500;
     text-align: left;
+    margin-bottom: 1px;
 }
 .section6-top> h1{
     text-align: left;
@@ -332,6 +345,30 @@ main {
     width: 1320px;
     height: 445px;
 }
+#bag1:hover{
+    transform: scale(1.1) rotate(1deg);
+    transition: all 0.6s;
+}
+#bag2:hover{
+    transform: scale(1.1) rotate(1deg);
+    transition: all 0.5s;
+}
+#shoe1:hover{
+    transform: scale(1.1) rotate(1deg);
+    transition: all 0.5s;
+}
+#shoe1:hover{
+    transform: scale(1.1) rotate(1deg);
+    transition: all 0.5s;
+}
+#glass:hover{
+    transform: scale(1.1) rotate(1deg);
+    transition: all 0.5s;
+}
+#ring:hover{
+    transform: scale(1.1) rotate(1deg);
+    transition: all 0.5s;
+}
 
 /* Section-7 Style */
 .section7{
@@ -359,7 +396,6 @@ main {
 .section7-top > h1{
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
@@ -399,7 +435,9 @@ main {
     font-weight: 600;
     text-transform: capitalize;
 }
-
+.submit:hover{
+    background-color: rgb(201, 97, 97);
+}
 /* Footer Style */
 footer{
     width: 100%;
