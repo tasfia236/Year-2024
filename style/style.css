@@ -53,7 +53,7 @@ main {
 
 /* Section-1 Style */
 .section1{
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 .section1-top{
     margin-left: 35%;
@@ -148,6 +148,7 @@ main {
 }
 .section3-info{
     margin: 100px auto;
+    margin-top: 80px;
 }
 .info{
     padding-top: 100px;
